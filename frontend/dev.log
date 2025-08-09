@@ -1,0 +1,244 @@
+nohup: ignoring input
+
+> frontend@0.0.0 dev /home/ubuntu/child-adoption-system/frontend
+> vite
+
+Port 5174 is in use, trying another one...
+Port 5175 is in use, trying another one...
+
+  VITE v6.3.5  ready in 476 ms
+
+  ➜  Local:   http://localhost:5176/
+  ➜  Network: http://169.254.0.21:5176/
+11:49:07 AM [vite] (client) Pre-transform error: Failed to resolve import "./pages/RegisterOrphanage" from "src/App.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/ubuntu/child-adoption-system/frontend/src/App.jsx:8:30
+  22 |  import Login from "./pages/Login";
+  23 |  import RegisterParent from "./pages/RegisterParent";
+  24 |  import RegisterOrphanage from "./pages/RegisterOrphanage";
+     |                                 ^
+  25 |  import ParentDashboard from "./pages/ParentDashboard";
+  26 |  import OrphanageDashboard from "./pages/OrphanageDashboard";
+11:49:07 AM [vite] Internal server error: Failed to resolve import "./pages/RegisterOrphanage" from "src/App.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/ubuntu/child-adoption-system/frontend/src/App.jsx:8:30
+  22 |  import Login from "./pages/Login";
+  23 |  import RegisterParent from "./pages/RegisterParent";
+  24 |  import RegisterOrphanage from "./pages/RegisterOrphanage";
+     |                                 ^
+  25 |  import ParentDashboard from "./pages/ParentDashboard";
+  26 |  import OrphanageDashboard from "./pages/OrphanageDashboard";
+      at TransformPluginContext._formatLog (file:///home/ubuntu/child-adoption-system/frontend/node_modules/.pnpm/vite@6.3.5_jiti@2.4.2_lightningcss@1.30.1/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42499:41)
+      at TransformPluginContext.error (file:///home/ubuntu/child-adoption-system/frontend/node_modules/.pnpm/vite@6.3.5_jiti@2.4.2_lightningcss@1.30.1/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42496:16)
+      at normalizeUrl (file:///home/ubuntu/child-adoption-system/frontend/node_modules/.pnpm/vite@6.3.5_jiti@2.4.2_lightningcss@1.30.1/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:40475:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/ubuntu/child-adoption-system/frontend/node_modules/.pnpm/vite@6.3.5_jiti@2.4.2_lightningcss@1.30.1/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:40594:37
+      at async Promise.all (index 10)
+      at async TransformPluginContext.transform (file:///home/ubuntu/child-adoption-system/frontend/node_modules/.pnpm/vite@6.3.5_jiti@2.4.2_lightningcss@1.30.1/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:40521:7)
+      at async EnvironmentPluginContainer.transform (file:///home/ubuntu/child-adoption-system/frontend/node_modules/.pnpm/vite@6.3.5_jiti@2.4.2_lightningcss@1.30.1/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42294:18)
+      at async loadAndTransform (file:///home/ubuntu/child-adoption-system/frontend/node_modules/.pnpm/vite@6.3.5_jiti@2.4.2_lightningcss@1.30.1/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:35735:27)
+      at async viteTransformMiddleware (file:///home/ubuntu/child-adoption-system/frontend/node_modules/.pnpm/vite@6.3.5_jiti@2.4.2_lightningcss@1.30.1/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:37250:24)
+11:49:46 AM [vite] (client) page reload src/pages/RegisterOrphanage.jsx
+11:49:46 AM [vite] (client) Pre-transform error: Failed to resolve import "./pages/ParentDashboard" from "src/App.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/ubuntu/child-adoption-system/frontend/src/App.jsx:9:28
+  23 |  import RegisterParent from "./pages/RegisterParent";
+  24 |  import RegisterOrphanage from "./pages/RegisterOrphanage";
+  25 |  import ParentDashboard from "./pages/ParentDashboard";
+     |                               ^
+  26 |  import OrphanageDashboard from "./pages/OrphanageDashboard";
+  27 |  import OrphanageList from "./pages/OrphanageList";
+11:49:46 AM [vite] Internal server error: Failed to resolve import "./pages/ParentDashboard" from "src/App.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/ubuntu/child-adoption-system/frontend/src/App.jsx:9:28
+  23 |  import RegisterParent from "./pages/RegisterParent";
+  24 |  import RegisterOrphanage from "./pages/RegisterOrphanage";
+  25 |  import ParentDashboard from "./pages/ParentDashboard";
+     |                               ^
+  26 |  import OrphanageDashboard from "./pages/OrphanageDashboard";
+  27 |  import OrphanageList from "./pages/OrphanageList";
+      at TransformPluginContext._formatLog (file:///home/ubuntu/child-adoption-system/frontend/node_modules/.pnpm/vite@6.3.5_jiti@2.4.2_lightningcss@1.30.1/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42499:41)
+      at TransformPluginContext.error (file:///home/ubuntu/child-adoption-system/frontend/node_modules/.pnpm/vite@6.3.5_jiti@2.4.2_lightningcss@1.30.1/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42496:16)
+      at normalizeUrl (file:///home/ubuntu/child-adoption-system/frontend/node_modules/.pnpm/vite@6.3.5_jiti@2.4.2_lightningcss@1.30.1/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:40475:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/ubuntu/child-adoption-system/frontend/node_modules/.pnpm/vite@6.3.5_jiti@2.4.2_lightningcss@1.30.1/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:40594:37
+      at async Promise.all (index 11)
+      at async TransformPluginContext.transform (file:///home/ubuntu/child-adoption-system/frontend/node_modules/.pnpm/vite@6.3.5_jiti@2.4.2_lightningcss@1.30.1/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:40521:7)
+      at async EnvironmentPluginContainer.transform (file:///home/ubuntu/child-adoption-system/frontend/node_modules/.pnpm/vite@6.3.5_jiti@2.4.2_lightningcss@1.30.1/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42294:18)
+      at async loadAndTransform (file:///home/ubuntu/child-adoption-system/frontend/node_modules/.pnpm/vite@6.3.5_jiti@2.4.2_lightningcss@1.30.1/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:35735:27)
+      at async viteTransformMiddleware (file:///home/ubuntu/child-adoption-system/frontend/node_modules/.pnpm/vite@6.3.5_jiti@2.4.2_lightningcss@1.30.1/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:37250:24)
+11:50:05 AM [vite] (client) page reload src/pages/ParentDashboard.jsx
+11:50:06 AM [vite] (client) Pre-transform error: Failed to resolve import "./pages/OrphanageDashboard" from "src/App.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/ubuntu/child-adoption-system/frontend/src/App.jsx:10:31
+  24 |  import RegisterOrphanage from "./pages/RegisterOrphanage";
+  25 |  import ParentDashboard from "./pages/ParentDashboard";
+  26 |  import OrphanageDashboard from "./pages/OrphanageDashboard";
+     |                                  ^
+  27 |  import OrphanageList from "./pages/OrphanageList";
+  28 |  import ChildrenList from "./pages/ChildrenList";
+11:50:06 AM [vite] Internal server error: Failed to resolve import "./pages/OrphanageDashboard" from "src/App.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/ubuntu/child-adoption-system/frontend/src/App.jsx:10:31
+  24 |  import RegisterOrphanage from "./pages/RegisterOrphanage";
+  25 |  import ParentDashboard from "./pages/ParentDashboard";
+  26 |  import OrphanageDashboard from "./pages/OrphanageDashboard";
+     |                                  ^
+  27 |  import OrphanageList from "./pages/OrphanageList";
+  28 |  import ChildrenList from "./pages/ChildrenList";
+      at TransformPluginContext._formatLog (file:///home/ubuntu/child-adoption-system/frontend/node_modules/.pnpm/vite@6.3.5_jiti@2.4.2_lightningcss@1.30.1/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42499:41)
+      at TransformPluginContext.error (file:///home/ubuntu/child-adoption-system/frontend/node_modules/.pnpm/vite@6.3.5_jiti@2.4.2_lightningcss@1.30.1/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42496:16)
+      at normalizeUrl (file:///home/ubuntu/child-adoption-system/frontend/node_modules/.pnpm/vite@6.3.5_jiti@2.4.2_lightningcss@1.30.1/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:40475:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/ubuntu/child-adoption-system/frontend/node_modules/.pnpm/vite@6.3.5_jiti@2.4.2_lightningcss@1.30.1/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:40594:37
+      at async Promise.all (index 12)
+      at async TransformPluginContext.transform (file:///home/ubuntu/child-adoption-system/frontend/node_modules/.pnpm/vite@6.3.5_jiti@2.4.2_lightningcss@1.30.1/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:40521:7)
+      at async EnvironmentPluginContainer.transform (file:///home/ubuntu/child-adoption-system/frontend/node_modules/.pnpm/vite@6.3.5_jiti@2.4.2_lightningcss@1.30.1/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42294:18)
+      at async loadAndTransform (file:///home/ubuntu/child-adoption-system/frontend/node_modules/.pnpm/vite@6.3.5_jiti@2.4.2_lightningcss@1.30.1/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:35735:27)
+      at async viteTransformMiddleware (file:///home/ubuntu/child-adoption-system/frontend/node_modules/.pnpm/vite@6.3.5_jiti@2.4.2_lightningcss@1.30.1/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:37250:24)
+11:50:23 AM [vite] (client) page reload src/pages/OrphanageDashboard.jsx
+11:50:23 AM [vite] (client) Pre-transform error: Failed to resolve import "./pages/OrphanageList" from "src/App.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/ubuntu/child-adoption-system/frontend/src/App.jsx:11:26
+  25 |  import ParentDashboard from "./pages/ParentDashboard";
+  26 |  import OrphanageDashboard from "./pages/OrphanageDashboard";
+  27 |  import OrphanageList from "./pages/OrphanageList";
+     |                             ^
+  28 |  import ChildrenList from "./pages/ChildrenList";
+  29 |  import ChildDetails from "./pages/ChildDetails";
+11:50:24 AM [vite] Internal server error: Failed to resolve import "./pages/OrphanageList" from "src/App.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/ubuntu/child-adoption-system/frontend/src/App.jsx:11:26
+  25 |  import ParentDashboard from "./pages/ParentDashboard";
+  26 |  import OrphanageDashboard from "./pages/OrphanageDashboard";
+  27 |  import OrphanageList from "./pages/OrphanageList";
+     |                             ^
+  28 |  import ChildrenList from "./pages/ChildrenList";
+  29 |  import ChildDetails from "./pages/ChildDetails";
+      at TransformPluginContext._formatLog (file:///home/ubuntu/child-adoption-system/frontend/node_modules/.pnpm/vite@6.3.5_jiti@2.4.2_lightningcss@1.30.1/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42499:41)
+      at TransformPluginContext.error (file:///home/ubuntu/child-adoption-system/frontend/node_modules/.pnpm/vite@6.3.5_jiti@2.4.2_lightningcss@1.30.1/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42496:16)
+      at normalizeUrl (file:///home/ubuntu/child-adoption-system/frontend/node_modules/.pnpm/vite@6.3.5_jiti@2.4.2_lightningcss@1.30.1/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:40475:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/ubuntu/child-adoption-system/frontend/node_modules/.pnpm/vite@6.3.5_jiti@2.4.2_lightningcss@1.30.1/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:40594:37
+      at async Promise.all (index 13)
+      at async TransformPluginContext.transform (file:///home/ubuntu/child-adoption-system/frontend/node_modules/.pnpm/vite@6.3.5_jiti@2.4.2_lightningcss@1.30.1/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:40521:7)
+      at async EnvironmentPluginContainer.transform (file:///home/ubuntu/child-adoption-system/frontend/node_modules/.pnpm/vite@6.3.5_jiti@2.4.2_lightningcss@1.30.1/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42294:18)
+      at async loadAndTransform (file:///home/ubuntu/child-adoption-system/frontend/node_modules/.pnpm/vite@6.3.5_jiti@2.4.2_lightningcss@1.30.1/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:35735:27)
+      at async viteTransformMiddleware (file:///home/ubuntu/child-adoption-system/frontend/node_modules/.pnpm/vite@6.3.5_jiti@2.4.2_lightningcss@1.30.1/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:37250:24)
+11:50:30 AM [vite] (client) page reload src/pages/OrphanageList.jsx
+11:50:30 AM [vite] (client) Pre-transform error: Failed to resolve import "./pages/ChildrenList" from "src/App.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/ubuntu/child-adoption-system/frontend/src/App.jsx:12:25
+  26 |  import OrphanageDashboard from "./pages/OrphanageDashboard";
+  27 |  import OrphanageList from "./pages/OrphanageList";
+  28 |  import ChildrenList from "./pages/ChildrenList";
+     |                            ^
+  29 |  import ChildDetails from "./pages/ChildDetails";
+  30 |  import AdoptionRequests from "./pages/AdoptionRequests";
+11:50:30 AM [vite] Internal server error: Failed to resolve import "./pages/ChildrenList" from "src/App.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/ubuntu/child-adoption-system/frontend/src/App.jsx:12:25
+  26 |  import OrphanageDashboard from "./pages/OrphanageDashboard";
+  27 |  import OrphanageList from "./pages/OrphanageList";
+  28 |  import ChildrenList from "./pages/ChildrenList";
+     |                            ^
+  29 |  import ChildDetails from "./pages/ChildDetails";
+  30 |  import AdoptionRequests from "./pages/AdoptionRequests";
+      at TransformPluginContext._formatLog (file:///home/ubuntu/child-adoption-system/frontend/node_modules/.pnpm/vite@6.3.5_jiti@2.4.2_lightningcss@1.30.1/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42499:41)
+      at TransformPluginContext.error (file:///home/ubuntu/child-adoption-system/frontend/node_modules/.pnpm/vite@6.3.5_jiti@2.4.2_lightningcss@1.30.1/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42496:16)
+      at normalizeUrl (file:///home/ubuntu/child-adoption-system/frontend/node_modules/.pnpm/vite@6.3.5_jiti@2.4.2_lightningcss@1.30.1/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:40475:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/ubuntu/child-adoption-system/frontend/node_modules/.pnpm/vite@6.3.5_jiti@2.4.2_lightningcss@1.30.1/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:40594:37
+      at async Promise.all (index 14)
+      at async TransformPluginContext.transform (file:///home/ubuntu/child-adoption-system/frontend/node_modules/.pnpm/vite@6.3.5_jiti@2.4.2_lightningcss@1.30.1/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:40521:7)
+      at async EnvironmentPluginContainer.transform (file:///home/ubuntu/child-adoption-system/frontend/node_modules/.pnpm/vite@6.3.5_jiti@2.4.2_lightningcss@1.30.1/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42294:18)
+      at async loadAndTransform (file:///home/ubuntu/child-adoption-system/frontend/node_modules/.pnpm/vite@6.3.5_jiti@2.4.2_lightningcss@1.30.1/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:35735:27)
+      at async viteTransformMiddleware (file:///home/ubuntu/child-adoption-system/frontend/node_modules/.pnpm/vite@6.3.5_jiti@2.4.2_lightningcss@1.30.1/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:37250:24)
+11:50:35 AM [vite] (client) page reload src/pages/ChildrenList.jsx
+11:50:35 AM [vite] (client) Pre-transform error: Failed to resolve import "./pages/ChildDetails" from "src/App.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/ubuntu/child-adoption-system/frontend/src/App.jsx:13:25
+  27 |  import OrphanageList from "./pages/OrphanageList";
+  28 |  import ChildrenList from "./pages/ChildrenList";
+  29 |  import ChildDetails from "./pages/ChildDetails";
+     |                            ^
+  30 |  import AdoptionRequests from "./pages/AdoptionRequests";
+  31 |  import Profile from "./pages/Profile";
+11:50:35 AM [vite] Internal server error: Failed to resolve import "./pages/ChildDetails" from "src/App.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/ubuntu/child-adoption-system/frontend/src/App.jsx:13:25
+  27 |  import OrphanageList from "./pages/OrphanageList";
+  28 |  import ChildrenList from "./pages/ChildrenList";
+  29 |  import ChildDetails from "./pages/ChildDetails";
+     |                            ^
+  30 |  import AdoptionRequests from "./pages/AdoptionRequests";
+  31 |  import Profile from "./pages/Profile";
+      at TransformPluginContext._formatLog (file:///home/ubuntu/child-adoption-system/frontend/node_modules/.pnpm/vite@6.3.5_jiti@2.4.2_lightningcss@1.30.1/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42499:41)
+      at TransformPluginContext.error (file:///home/ubuntu/child-adoption-system/frontend/node_modules/.pnpm/vite@6.3.5_jiti@2.4.2_lightningcss@1.30.1/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42496:16)
+      at normalizeUrl (file:///home/ubuntu/child-adoption-system/frontend/node_modules/.pnpm/vite@6.3.5_jiti@2.4.2_lightningcss@1.30.1/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:40475:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/ubuntu/child-adoption-system/frontend/node_modules/.pnpm/vite@6.3.5_jiti@2.4.2_lightningcss@1.30.1/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:40594:37
+      at async Promise.all (index 15)
+      at async TransformPluginContext.transform (file:///home/ubuntu/child-adoption-system/frontend/node_modules/.pnpm/vite@6.3.5_jiti@2.4.2_lightningcss@1.30.1/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:40521:7)
+      at async EnvironmentPluginContainer.transform (file:///home/ubuntu/child-adoption-system/frontend/node_modules/.pnpm/vite@6.3.5_jiti@2.4.2_lightningcss@1.30.1/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42294:18)
+      at async loadAndTransform (file:///home/ubuntu/child-adoption-system/frontend/node_modules/.pnpm/vite@6.3.5_jiti@2.4.2_lightningcss@1.30.1/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:35735:27)
+      at async viteTransformMiddleware (file:///home/ubuntu/child-adoption-system/frontend/node_modules/.pnpm/vite@6.3.5_jiti@2.4.2_lightningcss@1.30.1/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:37250:24)
+11:50:40 AM [vite] (client) page reload src/pages/ChildDetails.jsx
+11:50:40 AM [vite] (client) Pre-transform error: Failed to resolve import "./pages/AdoptionRequests" from "src/App.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/ubuntu/child-adoption-system/frontend/src/App.jsx:14:29
+  28 |  import ChildrenList from "./pages/ChildrenList";
+  29 |  import ChildDetails from "./pages/ChildDetails";
+  30 |  import AdoptionRequests from "./pages/AdoptionRequests";
+     |                                ^
+  31 |  import Profile from "./pages/Profile";
+  32 |  import ProtectedRoute from "./components/ProtectedRoute";
+11:50:40 AM [vite] Internal server error: Failed to resolve import "./pages/AdoptionRequests" from "src/App.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/ubuntu/child-adoption-system/frontend/src/App.jsx:14:29
+  28 |  import ChildrenList from "./pages/ChildrenList";
+  29 |  import ChildDetails from "./pages/ChildDetails";
+  30 |  import AdoptionRequests from "./pages/AdoptionRequests";
+     |                                ^
+  31 |  import Profile from "./pages/Profile";
+  32 |  import ProtectedRoute from "./components/ProtectedRoute";
+      at TransformPluginContext._formatLog (file:///home/ubuntu/child-adoption-system/frontend/node_modules/.pnpm/vite@6.3.5_jiti@2.4.2_lightningcss@1.30.1/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42499:41)
+      at TransformPluginContext.error (file:///home/ubuntu/child-adoption-system/frontend/node_modules/.pnpm/vite@6.3.5_jiti@2.4.2_lightningcss@1.30.1/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42496:16)
+      at normalizeUrl (file:///home/ubuntu/child-adoption-system/frontend/node_modules/.pnpm/vite@6.3.5_jiti@2.4.2_lightningcss@1.30.1/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:40475:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/ubuntu/child-adoption-system/frontend/node_modules/.pnpm/vite@6.3.5_jiti@2.4.2_lightningcss@1.30.1/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:40594:37
+      at async Promise.all (index 16)
+      at async TransformPluginContext.transform (file:///home/ubuntu/child-adoption-system/frontend/node_modules/.pnpm/vite@6.3.5_jiti@2.4.2_lightningcss@1.30.1/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:40521:7)
+      at async EnvironmentPluginContainer.transform (file:///home/ubuntu/child-adoption-system/frontend/node_modules/.pnpm/vite@6.3.5_jiti@2.4.2_lightningcss@1.30.1/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42294:18)
+      at async loadAndTransform (file:///home/ubuntu/child-adoption-system/frontend/node_modules/.pnpm/vite@6.3.5_jiti@2.4.2_lightningcss@1.30.1/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:35735:27)
+      at async viteTransformMiddleware (file:///home/ubuntu/child-adoption-system/frontend/node_modules/.pnpm/vite@6.3.5_jiti@2.4.2_lightningcss@1.30.1/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:37250:24)
+11:50:45 AM [vite] (client) page reload src/pages/AdoptionRequests.jsx
+11:50:45 AM [vite] (client) Pre-transform error: Failed to resolve import "./pages/Profile" from "src/App.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/ubuntu/child-adoption-system/frontend/src/App.jsx:15:20
+  29 |  import ChildDetails from "./pages/ChildDetails";
+  30 |  import AdoptionRequests from "./pages/AdoptionRequests";
+  31 |  import Profile from "./pages/Profile";
+     |                       ^
+  32 |  import ProtectedRoute from "./components/ProtectedRoute";
+  33 |  import "./App.css";
+11:50:45 AM [vite] Internal server error: Failed to resolve import "./pages/Profile" from "src/App.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/ubuntu/child-adoption-system/frontend/src/App.jsx:15:20
+  29 |  import ChildDetails from "./pages/ChildDetails";
+  30 |  import AdoptionRequests from "./pages/AdoptionRequests";
+  31 |  import Profile from "./pages/Profile";
+     |                       ^
+  32 |  import ProtectedRoute from "./components/ProtectedRoute";
+  33 |  import "./App.css";
+      at TransformPluginContext._formatLog (file:///home/ubuntu/child-adoption-system/frontend/node_modules/.pnpm/vite@6.3.5_jiti@2.4.2_lightningcss@1.30.1/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42499:41)
+      at TransformPluginContext.error (file:///home/ubuntu/child-adoption-system/frontend/node_modules/.pnpm/vite@6.3.5_jiti@2.4.2_lightningcss@1.30.1/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42496:16)
+      at normalizeUrl (file:///home/ubuntu/child-adoption-system/frontend/node_modules/.pnpm/vite@6.3.5_jiti@2.4.2_lightningcss@1.30.1/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:40475:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/ubuntu/child-adoption-system/frontend/node_modules/.pnpm/vite@6.3.5_jiti@2.4.2_lightningcss@1.30.1/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:40594:37
+      at async Promise.all (index 17)
+      at async TransformPluginContext.transform (file:///home/ubuntu/child-adoption-system/frontend/node_modules/.pnpm/vite@6.3.5_jiti@2.4.2_lightningcss@1.30.1/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:40521:7)
+      at async EnvironmentPluginContainer.transform (file:///home/ubuntu/child-adoption-system/frontend/node_modules/.pnpm/vite@6.3.5_jiti@2.4.2_lightningcss@1.30.1/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:42294:18)
+      at async loadAndTransform (file:///home/ubuntu/child-adoption-system/frontend/node_modules/.pnpm/vite@6.3.5_jiti@2.4.2_lightningcss@1.30.1/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:35735:27)
+      at async viteTransformMiddleware (file:///home/ubuntu/child-adoption-system/frontend/node_modules/.pnpm/vite@6.3.5_jiti@2.4.2_lightningcss@1.30.1/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:37250:24)
+11:50:50 AM [vite] (client) page reload src/pages/Profile.jsx
